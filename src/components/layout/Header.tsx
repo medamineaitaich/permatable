@@ -10,6 +10,9 @@ export function Header() {
 
   const navLinks = [
     { name: "Home", path: "/" },
+    { name: "Start Here", path: "/start-here" },
+    { name: "Topics", path: "/topics" },
+    { name: "Resources", path: "/resources" },
     { name: "Blog", path: "/blog" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
@@ -32,7 +35,7 @@ export function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-4 lg:gap-6">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
