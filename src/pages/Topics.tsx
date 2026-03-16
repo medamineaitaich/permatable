@@ -152,7 +152,16 @@ export function Topics() {
             Continue exploring topic-based articles or get weekly beginner
             insights delivered to your inbox.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3">
+          <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3">
+            <Button asChild size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10 hover:text-white">
+              <Link to="/resources">Explore Resources</Link>
+            </Button>
+            <Button asChild size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10 hover:text-white">
+              <Link to="/tools">Open Tools</Link>
+            </Button>
+            <Button asChild size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10 hover:text-white">
+              <Link to="/case-studies">View Case Studies</Link>
+            </Button>
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
               <Link to="/blog">Go to Blog</Link>
             </Button>

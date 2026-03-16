@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Leaf, CheckCircle2 } from "lucide-react";
 import { Button } from "../components/ui/button";
@@ -83,7 +84,15 @@ export function Newsletter() {
                 </Button>
               </div>
               <p className="text-xs text-muted-foreground">
-                By subscribing, you agree to our Privacy Policy and Terms of Service.
+                By subscribing, you agree to our{" "}
+                <Link to="/privacy" className="text-primary hover:underline">
+                  Privacy Policy
+                </Link>{" "}
+                and{" "}
+                <Link to="/terms" className="text-primary hover:underline">
+                  Terms of Service
+                </Link>
+                .
               </p>
             </form>
           </div>

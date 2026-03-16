@@ -161,6 +161,9 @@ export function Resources() {
             <Link to="/tools">Open Tools</Link>
           </Button>
           <Button asChild size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10 hover:text-white">
+            <Link to="/case-studies">View Case Studies</Link>
+          </Button>
+          <Button asChild size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10 hover:text-white">
             <Link to="/topics">Explore Topics</Link>
           </Button>
           <Button asChild size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10 hover:text-white">
