@@ -9,6 +9,26 @@ export function Home() {
   const posts = getPosts();
   const featuredPosts = posts.filter(p => p.featured).slice(0, 3);
   const latestPosts = posts.slice(0, 6);
+  const starterLinks = [
+    {
+      title: "Start Here",
+      description: "A beginner-friendly path to understand the core ideas first.",
+      href: "/start-here",
+      cta: "Begin your journey",
+    },
+    {
+      title: "Topics",
+      description: "Choose a focus area and explore practical subject hubs.",
+      href: "/topics",
+      cta: "Explore topics",
+    },
+    {
+      title: "Resources",
+      description: "Find curated guides, references, and next-step learning links.",
+      href: "/resources",
+      cta: "Open resources",
+    },
+  ];
 
   const iconMap: Record<string, React.ReactNode> = {
     Sprout: <Sprout className="h-8 w-8 text-primary" />,
@@ -60,6 +80,39 @@ export function Home() {
               </Link>
             </Button>
           </motion.div>
+        </div>
+      </section>
+
+      {/* Where to Start */}
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mb-10">
+            <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Where to Start
+            </h2>
+            <p className="text-muted-foreground">
+              New to Permatable? Choose the path that matches your goal and start with the most useful page for your next step.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {starterLinks.map((item) => (
+              <article
+                key={item.title}
+                className="bg-white rounded-2xl border border-border/50 p-6 shadow-sm"
+              >
+                <h3 className="font-serif text-2xl font-bold text-foreground mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-muted-foreground mb-4">
+                  {item.description}
+                </p>
+                <Link to={item.href} className="text-primary text-sm font-medium hover:underline">
+                  {item.cta}
+                </Link>
+              </article>
+            ))}
+          </div>
         </div>
       </section>
 

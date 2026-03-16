@@ -21,6 +21,7 @@ import { StartHere } from "./pages/StartHere";
 import { Topics } from "./pages/Topics";
 import { Resources } from "./pages/Resources";
 import { Tools } from "./pages/Tools";
+import { CaseStudies } from "./pages/CaseStudies";
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="topics" element={<Topics />} />
           <Route path="resources" element={<Resources />} />
           <Route path="tools" element={<Tools />} />
+          <Route path="case-studies" element={<CaseStudies />} />
           <Route path="blog" element={<Blog />} />
           <Route path="post/:slug" element={<Post />} />
           <Route path="blog/category/:slug" element={<Category />} />
