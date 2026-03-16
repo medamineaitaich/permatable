@@ -9,17 +9,14 @@ export function Header() {
   const location = useLocation();
 
   const navLinks = [
-    { name: "Home", path: "/" },
     { name: "Start Here", path: "/start-here" },
     { name: "Topics", path: "/topics" },
     { name: "Resources", path: "/resources" },
     { name: "Blog", path: "/blog" },
     { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
   ];
 
   const isActive = (path: string) => {
-    if (path === "/" && location.pathname !== "/") return false;
     return location.pathname.startsWith(path);
   };
 
