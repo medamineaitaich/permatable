@@ -6,8 +6,8 @@ export function Privacy() {
           Privacy Policy
         </h1>
         <p className="text-lg text-muted-foreground">
-          This policy explains what information we collect, how we use it, and
-          the choices you have.
+          This Policy explains what information Permatable collects, how it is
+          used, and the choices available to you.
         </p>
       </div>
 
@@ -17,9 +17,9 @@ export function Privacy() {
             1. Information We Collect
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            We may collect information you provide directly, such as contact form
-            details or newsletter sign-up data, along with basic usage
-            information needed to operate and improve the website.
+            We may collect information you provide directly, such as contact
+            form details and newsletter sign-up data, as well as basic usage
+            information needed to operate and improve the site.
           </p>
         </section>
 
@@ -28,19 +28,20 @@ export function Privacy() {
             2. How We Use Information
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            We use data to respond to inquiries, deliver requested updates,
-            improve content quality, and maintain site reliability and security.
+            We use information to respond to inquiries, send requested
+            communications, improve content quality, and maintain site security
+            and reliability.
           </p>
         </section>
 
         <section>
           <h2 className="font-serif text-2xl font-bold text-foreground mb-3">
-            3. Sharing of Information
+            3. When Information Is Shared
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            We do not sell personal information. We may share limited data with
-            service providers that help us run the site, subject to appropriate
-            safeguards.
+            We do not sell personal information. We may share limited
+            information with trusted service providers who help operate the
+            site, subject to appropriate safeguards.
           </p>
         </section>
 
@@ -49,8 +50,8 @@ export function Privacy() {
             4. Data Retention
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            We keep information only as long as needed for the purposes outlined
-            in this policy or to meet legal obligations.
+            We retain information only for as long as needed for the purposes
+            described in this Policy or to meet legal obligations.
           </p>
         </section>
 
@@ -61,7 +62,7 @@ export function Privacy() {
           <p className="text-muted-foreground leading-relaxed">
             You can opt out of marketing emails at any time using unsubscribe
             links. You may also contact us to request updates or deletion of
-            personal information where applicable.
+            personal information where applicable under local law.
           </p>
         </section>
 
@@ -70,7 +71,7 @@ export function Privacy() {
             6. Policy Updates
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            We may update this Privacy Policy from time to time. Changes become
+            We may update this Policy from time to time. Updates become
             effective when posted on this page.
           </p>
         </section>

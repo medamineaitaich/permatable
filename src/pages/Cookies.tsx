@@ -6,8 +6,8 @@ export function Cookies() {
           Cookie Policy
         </h1>
         <p className="text-lg text-muted-foreground">
-          This policy explains how Permatable uses cookies and similar
-          technologies on our website.
+          This Policy explains how Permatable uses cookies and similar
+          technologies on this website.
         </p>
       </div>
 
@@ -18,8 +18,7 @@ export function Cookies() {
           </h2>
           <p className="text-muted-foreground leading-relaxed">
             Cookies are small text files stored on your device. They help
-            websites remember preferences and understand how visitors interact
-            with pages.
+            websites remember preferences and understand how visitors use pages.
           </p>
         </section>
 
@@ -28,30 +27,31 @@ export function Cookies() {
             2. How We Use Cookies
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            We use cookies for core site functionality, performance insights, and
-            improving user experience. Some cookies may help us understand which
-            content is most useful to readers.
+            We use cookies to support core site functionality, measure
+            performance, and improve user experience. Some cookies help us
+            understand which content is most useful to readers.
           </p>
         </section>
 
         <section>
           <h2 className="font-serif text-2xl font-bold text-foreground mb-3">
-            3. Types of Cookies
+            3. Types of Cookies We Use
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            Cookies used may include essential cookies, analytics cookies, and
+            Cookies may include essential cookies, analytics cookies, and
             preference cookies. Essential cookies are required for basic site
-            operation.
+            operation and cannot be switched off without affecting core
+            functionality.
           </p>
         </section>
 
         <section>
           <h2 className="font-serif text-2xl font-bold text-foreground mb-3">
-            4. Managing Cookies
+            4. Managing Cookie Preferences
           </h2>
           <p className="text-muted-foreground leading-relaxed">
             You can manage or disable cookies in your browser settings. Disabling
-            some cookies may affect certain website features and performance.
+            some cookies may affect site features and overall performance.
           </p>
         </section>
 
@@ -60,8 +60,8 @@ export function Cookies() {
             5. Changes to This Policy
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            We may update this Cookie Policy as our website evolves. Any changes
-            will be posted on this page with the latest version.
+            We may update this Policy as the site evolves. Any changes will be
+            posted on this page.
           </p>
         </section>
       </div>

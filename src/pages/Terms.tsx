@@ -6,8 +6,8 @@ export function Terms() {
           Terms of Service
         </h1>
         <p className="text-lg text-muted-foreground">
-          These terms explain how you may use Permatable and what to expect from
-          our content and services.
+          These Terms explain how you may use Permatable and what to expect
+          from the content and services published on this website.
         </p>
       </div>
 
@@ -17,52 +17,52 @@ export function Terms() {
             1. Acceptance of Terms
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            By accessing or using Permatable, you agree to these Terms of
-            Service. If you do not agree, please do not use the website.
+            By accessing or using Permatable, you agree to these Terms. If you
+            do not agree, please do not use the site.
           </p>
         </section>
 
         <section>
           <h2 className="font-serif text-2xl font-bold text-foreground mb-3">
-            2. Content and Educational Use
+            2. Informational Use of Content
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            Our articles, guides, and tools are provided for informational and
-            educational purposes. They do not replace professional legal,
-            financial, or agricultural advice tailored to your situation.
+            Permatable content, including articles, guides, and tools, is
+            provided for educational and informational purposes. It does not
+            replace professional advice tailored to your specific situation.
           </p>
         </section>
 
         <section>
           <h2 className="font-serif text-2xl font-bold text-foreground mb-3">
-            3. User Conduct
+            3. Acceptable Use
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            You agree not to misuse the website, interfere with normal
-            operation, or attempt unauthorized access to systems, accounts, or
-            data connected to Permatable.
+            You agree not to misuse the site, disrupt normal operation, or
+            attempt unauthorized access to systems, accounts, or data connected
+            to Permatable.
           </p>
         </section>
 
         <section>
           <h2 className="font-serif text-2xl font-bold text-foreground mb-3">
-            4. Intellectual Property
+            4. Ownership and Intellectual Property
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            Unless stated otherwise, site content, branding, and materials are
+            Unless otherwise stated, site content, branding, and materials are
             owned by Permatable or used with permission. Reuse or redistribution
-            requires prior written permission.
+            requires prior written approval.
           </p>
         </section>
 
         <section>
           <h2 className="font-serif text-2xl font-bold text-foreground mb-3">
-            5. Limitation of Liability
+            5. Disclaimer and Limitation of Liability
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            Permatable is provided on an as-is basis. To the extent permitted by
-            law, we are not liable for indirect or consequential damages arising
-            from your use of the website.
+            Permatable is provided on an "as is" basis. To the extent permitted
+            by law, we are not liable for indirect or consequential damages
+            arising from your use of the site.
           </p>
         </section>
 
@@ -71,8 +71,8 @@ export function Terms() {
             6. Updates to These Terms
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            We may update these terms periodically. Continued use of the website
-            after updates means you accept the revised terms.
+            We may update these Terms from time to time. Continued use of the
+            site after updates means you accept the revised version.
           </p>
         </section>
       </div>

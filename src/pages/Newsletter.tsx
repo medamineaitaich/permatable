@@ -44,24 +44,31 @@ export function Newsletter() {
             className="space-y-6"
           >
             <CheckCircle2 className="h-16 w-16 text-green-500 mx-auto" />
-            <h1 className="font-serif text-3xl font-bold text-foreground">You're on the list!</h1>
+            <h1 className="font-serif text-3xl font-bold text-foreground">You&apos;re subscribed.</h1>
             <p className="text-muted-foreground text-lg">
-              Thank you for subscribing to the Permatable newsletter. Keep an eye on your inbox for our latest updates, guides, and stories.
+              Thanks for joining Permatable. You&apos;ll receive practical weekly
+              emails with composting guidance, soil health tips, seasonal garden
+              tasks, and useful planning resources.
             </p>
             <Button 
               variant="outline" 
               className="mt-8"
               onClick={() => setIsSuccess(false)}
             >
-              Subscribe another email
+              Use another email
             </Button>
           </motion.div>
         ) : (
           <div className="space-y-8">
             <div>
-              <h1 className="font-serif text-4xl font-bold text-foreground mb-4">Join Our Community</h1>
+              <h1 className="font-serif text-4xl font-bold text-foreground mb-4">Join the Permatable Newsletter</h1>
               <p className="text-muted-foreground text-lg">
-                Get weekly tips on composting, organic gardening, and sustainable living delivered straight to your inbox. No spam, ever.
+                Get one practical email each week with clear guidance on
+                composting, soil health, permaculture, and sustainable garden
+                planning.
+              </p>
+              <p className="text-sm text-muted-foreground mt-3">
+                Designed for real gardens and real schedules. No hype, no spam.
               </p>
             </div>
 
@@ -69,7 +76,7 @@ export function Newsletter() {
               <div className="relative">
                 <Input 
                   type="email" 
-                  placeholder="Enter your email address" 
+                  placeholder="you@example.com" 
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -80,7 +87,7 @@ export function Newsletter() {
                   disabled={isSubmitting} 
                   className="absolute right-1 top-1 bottom-1 rounded-full px-6 bg-primary hover:bg-primary/90"
                 >
-                  {isSubmitting ? "Subscribing..." : "Subscribe"}
+                  {isSubmitting ? "Joining..." : "Join"}
                 </Button>
               </div>
               <p className="text-xs text-muted-foreground">
@@ -92,7 +99,7 @@ export function Newsletter() {
                 <Link to="/terms" className="text-primary hover:underline">
                   Terms of Service
                 </Link>
-                .
+                . You can unsubscribe anytime.
               </p>
             </form>
           </div>
