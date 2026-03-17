@@ -12,21 +12,21 @@ export function Home() {
   const starterLinks = [
     {
       title: "Start Here",
-      description: "A beginner-friendly path to understand the core ideas first.",
+      description: "Get a clear introduction to Permatable, the core ideas behind permaculture, and the best first steps to take.",
       href: "/start-here",
-      cta: "Begin your journey",
+      cta: "Start with the essentials",
     },
     {
       title: "Topics",
-      description: "Choose a focus area and explore practical subject hubs.",
+      description: "Browse composting, soil health, sustainable gardening, and permaculture by subject so you can learn in a focused way.",
       href: "/topics",
-      cta: "Explore topics",
+      cta: "Browse topic hubs",
     },
     {
       title: "Resources",
-      description: "Find curated guides, references, and next-step learning links.",
+      description: "Find practical guides, curated references, and next-step resources to help you turn ideas into action.",
       href: "/resources",
-      cta: "Open resources",
+      cta: "See recommended resources",
     },
   ];
 
@@ -59,7 +59,7 @@ export function Home() {
             transition={{ duration: 0.6 }}
             className="font-serif text-5xl md:text-7xl font-bold mb-6 tracking-tight"
           >
-            From Soil To Table
+            Practical Permaculture, From Soil to Table
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -67,7 +67,7 @@ export function Home() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-2xl mb-10 max-w-2xl mx-auto font-medium text-white/90"
           >
-            Cultivating sustainable living, permaculture, and organic agriculture for a healthier planet.
+            Permatable helps you build healthier soil, better compost, and more resilient gardens with practical guides, planning ideas, and grounded lessons you can use at home.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -76,7 +76,7 @@ export function Home() {
           >
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6 rounded-full">
               <Link to="/blog">
-                Explore Articles <ArrowRight className="ml-2 h-5 w-5" />
+                Browse Practical Guides <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
           </motion.div>
@@ -91,7 +91,7 @@ export function Home() {
               Where to Start
             </h2>
             <p className="text-muted-foreground">
-              New to Permatable? Choose the path that matches your goal and start with the most useful page for your next step.
+              New here? Start with the page that matches what you need most: a clear introduction, a focused topic hub, or a practical set of next-step resources.
             </p>
           </div>
 
@@ -121,11 +121,11 @@ export function Home() {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-end mb-12">
             <div>
-              <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">Featured Stories</h2>
-              <p className="text-muted-foreground max-w-2xl">Handpicked articles to inspire your sustainable journey.</p>
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">Featured Guides</h2>
+              <p className="text-muted-foreground max-w-2xl">Start with a few of our most useful articles on composting, soil, and practical garden systems.</p>
             </div>
             <Link to="/blog" className="hidden md:flex items-center text-primary font-medium hover:underline">
-              View all <ArrowRight className="ml-1 h-4 w-4" />
+              See all articles <ArrowRight className="ml-1 h-4 w-4" />
             </Link>
           </div>
 
@@ -166,7 +166,7 @@ export function Home() {
                     {post.excerpt}
                   </p>
                   <Link to={`/post/${post.slug}`} className="text-primary text-sm font-medium flex items-center mt-auto">
-                    Read more <ArrowRight className="ml-1 h-4 w-4" />
+                    Read the guide <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </div>
               </motion.article>
@@ -179,7 +179,7 @@ export function Home() {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">Explore Topics</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto mb-12">Dive deep into the areas of sustainable living that matter most to you.</p>
+          <p className="text-muted-foreground max-w-2xl mx-auto mb-12">Use topic hubs to go deeper into composting, soil health, organic gardening, and other core Permatable subjects.</p>
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {categories.map((category, i) => (
@@ -211,23 +211,23 @@ export function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <Leaf className="h-12 w-12 mx-auto mb-6 text-accent" />
-            <h2 className="font-serif text-3xl md:text-5xl font-bold mb-6">Join the Permatable Community</h2>
+            <h2 className="font-serif text-3xl md:text-5xl font-bold mb-6">Get Practical Notes from Permatable</h2>
             <p className="text-primary-foreground/80 text-lg mb-10 max-w-xl mx-auto">
-              Get weekly tips on composting, organic gardening, and sustainable living delivered straight to your inbox.
+              Get practical tips on composting, soil health, sustainable gardening, and planning your next step without the noise.
             </p>
             <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onSubmit={(e) => e.preventDefault()}>
               <Input 
                 type="email" 
-                placeholder="Enter your email address" 
+                placeholder="Your email address" 
                 className="bg-white/10 border-white/20 text-white placeholder:text-white/60 h-12 focus-visible:ring-accent"
                 required
               />
               <Button type="submit" size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 h-12 px-8">
-                Subscribe
+                Join the newsletter
               </Button>
             </form>
             <p className="text-xs text-primary-foreground/60 mt-4">
-              We respect your privacy. Unsubscribe at any time.
+              Useful updates only. Unsubscribe whenever you like.
             </p>
           </div>
         </div>
