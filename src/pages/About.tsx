@@ -23,7 +23,7 @@ export function About() {
             transition={{ duration: 0.6 }}
             className="font-serif text-5xl md:text-7xl font-bold mb-6 tracking-tight"
           >
-            Our Mission
+            About Permatable
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -31,7 +31,7 @@ export function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-2xl max-w-2xl mx-auto font-medium text-white/90"
           >
-            To inspire and empower individuals to cultivate sustainable, thriving ecosystems from the soil up.
+            Permatable is a practical learning site for composting, soil health, permaculture, and sustainable gardening.
           </motion.p>
         </div>
       </section>
@@ -42,10 +42,10 @@ export function About() {
           <div className="prose prose-lg prose-stone max-w-none prose-headings:font-serif prose-headings:font-bold prose-headings:text-foreground prose-p:text-muted-foreground prose-p:leading-relaxed">
             <h2 className="text-3xl md:text-4xl text-center mb-12">The Permatable Story</h2>
             <p>
-              Permatable was born out of a simple observation: the way we grow, consume, and dispose of our food is fundamentally disconnected from the natural cycles of the Earth. We believe that by returning to the principles of permaculture and organic agriculture, we can heal the land, nourish our bodies, and build resilient communities.
+              Permatable exists to make regenerative growing more understandable and more usable in everyday life. The site brings together practical guidance on composting, soil improvement, permaculture thinking, and garden planning so readers can move from interest to action with more confidence.
             </p>
             <p>
-              Our journey started with a small compost bin and a desire to reduce waste. It quickly blossomed into a passion for soil health, regenerative farming, and the intricate web of life that sustains us all. Today, Permatable is a platform dedicated to sharing knowledge, stories, and practical guides for anyone looking to embrace a more sustainable lifestyle.
+              The core idea behind Permatable is simple: healthy gardens start with healthy soil, and healthy soil starts with better habits. That might mean learning how to compost well, understanding the basics of the soil food web, planning a garden more thoughtfully, or applying permaculture principles on a small and realistic scale. We focus on the kinds of changes people can actually use, whether they are working with a backyard, a few raised beds, or a small urban growing space.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-16 not-prose">
@@ -53,31 +53,31 @@ export function About() {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Leaf className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="font-serif text-xl font-bold mb-4">Sustainability</h3>
-                <p className="text-muted-foreground text-sm">We advocate for practices that meet our present needs without compromising the ability of future generations to meet theirs.</p>
+                <h3 className="font-serif text-xl font-bold mb-4">Practical Learning</h3>
+                <p className="text-muted-foreground text-sm">We aim to explain regenerative growing in clear, usable terms so readers can apply what they learn without unnecessary complexity.</p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-sm border border-border/50 text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Globe className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="font-serif text-xl font-bold mb-4">Regeneration</h3>
-                <p className="text-muted-foreground text-sm">Beyond sustainability, we aim to actively restore and improve the ecosystems we interact with, leaving the land better than we found it.</p>
+                <h3 className="font-serif text-xl font-bold mb-4">Soil-First Thinking</h3>
+                <p className="text-muted-foreground text-sm">We believe better compost, healthier soil, and smarter garden systems create stronger long-term results than quick fixes.</p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-sm border border-border/50 text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Users className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="font-serif text-xl font-bold mb-4">Community</h3>
-                <p className="text-muted-foreground text-sm">We believe that real change happens locally, through shared knowledge, mutual support, and collective action.</p>
+                <h3 className="font-serif text-xl font-bold mb-4">Steady Progress</h3>
+                <p className="text-muted-foreground text-sm">We value small, repeatable improvements that help people grow more skillfully over time rather than trying to do everything at once.</p>
               </div>
             </div>
 
             <h2 className="text-3xl md:text-4xl text-center mb-12">Our Vision</h2>
             <p>
-              We envision a world where every home has a compost bin, every community has a garden, and every farm operates in harmony with nature. A world where "from soil to table" isn't just a tagline, but a way of life.
+              We want Permatable to be a trusted place to learn the foundations of regenerative growing and to find practical next steps. Not abstract ideals, but grounded knowledge that helps people compost better, care for soil more deliberately, and make smarter decisions in the garden.
             </p>
             <p>
-              Whether you're a seasoned farmer, an urban gardener, or simply someone looking to make more conscious choices, we invite you to join us on this journey. Together, we can cultivate a greener, healthier, and more abundant future.
+              Whether you are just getting started or refining an existing practice, Permatable is built to help you learn clearly and act steadily. If you want a more thoughtful, resilient approach to growing food and caring for land, this site is here to support that work.
             </p>
           </div>
         </div>
